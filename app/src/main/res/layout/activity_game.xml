@@ -2,15 +2,15 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#2a2a2a">
+    android:background="@color/design_default_color_background">
 
     <TextView
         android:id="@+id/mainA_RL_TV_scoreTable"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
         android:layout_gravity="center|right"
         android:layout_marginStart="20dp"
         android:layout_marginTop="80dp"
@@ -19,6 +19,7 @@
         android:text="Score:"
         android:textSize="24sp"
         android:textStyle="bold" />
+
     <LinearLayout
         android:id="@+id/mainA_RL_LL_players"
         android:layout_width="match_parent"

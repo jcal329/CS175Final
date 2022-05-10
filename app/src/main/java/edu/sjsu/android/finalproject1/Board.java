@@ -1,8 +1,8 @@
 package edu.sjsu.android.finalproject1;
 
 public class Board {
-    private static final int rows = 6;
-    private static final int columns = 7;
+    public static final int rows = 6;
+    public static final int columns = 7;
 
     Piece[][] board = new Piece[rows][columns];
 
