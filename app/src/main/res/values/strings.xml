@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">connect4</string>
+    <string name="homeTitle">connect4</string>
+    <string name="playButton">play</string>
+    <string name="PlayerSetupTitle">Enter Your Name</string>
+    <string name="Lable1">Player1</string>
+    <string name="Lable2">Player2</string>
+    <string name="submitButton">Submit Names</string>
+    <string name="NameHint">Enter Your Name</string>
+</resources>
