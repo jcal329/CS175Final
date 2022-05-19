@@ -4,7 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/renel/AndroidStudioProjects/FinalProject1/app/src/main/res/layout/activity_game.xml" value="0.19166666666666668" />
-        <entry key="..\:/Users/renel/AndroidStudioProjects/FinalProject1/app/src/main/res/layout/activity_main.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/renel/AndroidStudioProjects/FinalProject1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/renel/AndroidStudioProjects/FinalProject1/app/src/main/res/layout/fragment_end_game_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/renel/AndroidStudioProjects/FinalProject1/app/src/main/res/layout/fragment_game.xml" value="0.33" />
+        <entry key="..\:/Users/renel/AndroidStudioProjects/FinalProject1/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/renel/AndroidStudioProjects/FinalProject1/app/src/main/res/layout/fragment_info.xml" value="0.3578125" />
+        <entry key="..\:/Users/renel/AndroidStudioProjects/FinalProject1/app/src/main/res/layout/fragment_landing.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/renel/AndroidStudioProjects/FinalProject1/app/src/main/res/layout/fragment_post_game.xml" value="0.33" />
+        <entry key="..\:/Users/renel/AndroidStudioProjects/FinalProject1/app/src/main/res/layout/fragment_single_player.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/renel/AndroidStudioProjects/FinalProject1/app/src/main/res/menu/menu_option.xml" value="0.5" />
+        <entry key="..\:/Users/renel/AndroidStudioProjects/FinalProject1/app/src/main/res/xml/root_preferences.xml" value="0.18840579710144928" />
       </map>
     </option>
   </component>

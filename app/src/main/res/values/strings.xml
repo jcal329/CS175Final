@@ -1,10 +1,20 @@
 <resources>
-    <string name="app_name">connect4</string>
-    <string name="homeTitle">connect4</string>
-    <string name="playButton">play</string>
-    <string name="PlayerSetupTitle">Enter Your Name</string>
-    <string name="Lable1">Player1</string>
-    <string name="Lable2">Player2</string>
-    <string name="submitButton">Submit Names</string>
-    <string name="NameHint">Enter Your Name</string>
+    <string name="app_name">Connect4</string>
+    <string name="homeTitle">Connect4!</string>
+    <string name="playButton">Play!</string>
+    <string name="player1Turn">Player 1\'s Turn</string>
+    <string name="player2Turn">Player 2\'s Turn</string>
+    <string name="player1win">Player 1 Wins!</string>
+    <string name="player2win">Player 2 Wins!</string>
+    <string name="reset">Reset</string>
+    <string name="newGme">New Game</string>
+    <string name="home">Home</string>
+    <string name="keepPlaying">Continue</string>
+    <string name="moves">Moves</string>
+    <string name="time">Time</string>
+    <string name="timer">%02d:%02d</string>
+    <string name="numMoves">%d</string>
+    <string name="info">How to Play Connect4</string>
+    <string name="uninstall">Uninstall</string>
+
 </resources>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameFragment">
+
+    <LinearLayout
+        android:id="@+id/column1"
+        android:layout_width="50dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@id/column2"
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintStart_toStartOf="@+id/board"
+        app:layout_constraintTop_toTopOf="@id/board">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/column2"
+        android:layout_width="50dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintStart_toEndOf="@+id/column1"
+        app:layout_constraintEnd_toStartOf="@id/column3"
+        app:layout_constraintTop_toTopOf="@+id/board">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/column3"
+        android:layout_width="50dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintStart_toEndOf="@+id/column2"
+        app:layout_constraintEnd_toStartOf="@id/column4"
+        app:layout_constraintTop_toTopOf="@+id/board">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/column4"
+        android:layout_width="50dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/board"
+        app:layout_constraintStart_toEndOf="@+id/column3"
+        app:layout_constraintEnd_toStartOf="@id/column5"
+        app:layout_constraintTop_toTopOf="@id/board">
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/column5"
+        android:layout_width="50dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintStart_toEndOf="@+id/column4"
+        app:layout_constraintEnd_toStartOf="@id/column6"
+        app:layout_constraintTop_toTopOf="@+id/board" >
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/column6"
+        android:layout_width="50dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintStart_toEndOf="@+id/column5"
+        app:layout_constraintEnd_toStartOf="@+id/column7"
+        app:layout_constraintTop_toTopOf="@+id/board">
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            app:srcCompat="@drawable/square" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/column7"
+        android:layout_width="55dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintEnd_toEndOf="@+id/board"
+        app:layout_constraintStart_toEndOf="@+id/column6"
+        app:layout_constraintTop_toTopOf="@+id/board">
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="50dp"
+            android:minHeight="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="50dp"
+            android:minHeight="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="50dp"
+            android:minHeight="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="50dp"
+            android:minHeight="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="50dp"
+            android:minHeight="50dp"
+            app:srcCompat="@drawable/square" />
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="50dp"
+            android:minHeight="50dp"
+            app:srcCompat="@drawable/square" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="@string/player1Turn"
+        android:textAlignment="center"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/board"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/board"
+        android:layout_width="359dp"
+        android:layout_height="348dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/board" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/board"
+        app:layout_constraintVertical_bias="0.328" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
